@@ -9,13 +9,14 @@ class Signin extends Component {
     return (
       <div className ="intro">
         <div className="panel-landing" id="section-1">
-          <h1 className="landing-heading">Favorite List</h1>
-          <p>A decentralized Favorite app built on <a href="https://blockstack.org" target="_blank"rel="noopener noreferrer">Blockstack</a></p>
+          <div className="landing-title">
+            <center><h1>My Favorite Things</h1></center>
+          </div>
           <button
-            className="btn btn-primary btn-lg"
+            className="btn btn-primary btn-lg bbutton"
             id="signin-button"
             onClick={ handleSignIn.bind(this) }
-          >
+            >
             Sign In with Blockstack
           </button>
         </div>

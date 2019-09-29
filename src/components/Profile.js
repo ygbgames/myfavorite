@@ -16,7 +16,7 @@ class Profile extends Component {
       catagory: 'Random',
       catagoryMap:[]
     }
-    this.catagoryList = ["Food","Random","Drinks","Travel","Games","Cars"];
+    this.catagoryList = ["Food","Random","Drinks","Travel","Games","Cars","Urls"];
     this.loadTasks = this.loadTasks.bind(this);
     this.handleChange = this.handleChange.bind(this);
     this.handleCatagoryChange = this.handleCatagoryChange.bind(this);
