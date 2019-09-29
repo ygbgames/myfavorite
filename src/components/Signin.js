@@ -13,7 +13,7 @@ class Signin extends Component {
             <center><h1>My Favorite Things</h1></center>
           </div>
           <button
-            className="btn btn-primary btn-lg bbutton"
+            className="btn btn-primary btn-lg"
             id="signin-button"
             onClick={ handleSignIn.bind(this) }
             >
